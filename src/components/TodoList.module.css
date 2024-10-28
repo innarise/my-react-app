@@ -1,0 +1,38 @@
+/* src/components/TodoList.module.css */
+.todoList {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .inputContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  .addButton {
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  

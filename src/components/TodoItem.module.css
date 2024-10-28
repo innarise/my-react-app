@@ -1,0 +1,17 @@
+/* src/components/TodoItem.module.css */
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .deleteButton {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
